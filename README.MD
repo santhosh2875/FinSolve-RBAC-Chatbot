@@ -140,10 +140,15 @@ password: password123
 
 ------------------
 Ask Question according to the role:
+
 -What is the company’s vision and mission?--(emploee)
+
 -Where is FinSolve headquartered?--(engineering)
+
 -What was the total revenue in Q4 2024?--(finace)
+
 -What was the customer acquisition target for Q4 2024?--(marketing)
+
 -any question from the company for-- (c-Level)
 
 
