@@ -50,15 +50,25 @@ Built for [Codebasics AI Challenge #1](https://codebasics.io/challenges/rag-chat
 ## 🧱 Architecture Overview
 
 [Streamlit UI] --> /login --> [FastAPI Backend] --> [JWT Token Issued]
+
                                      ↓
+
                                 /chat POST
+
                                      ↓
+
                             Role-Based Filter
+
                                      ↓
+
                             [ChromaDB + LangChain]
+
                                      ↓
+
                           [OpenRouter LLM → Answer]
+
                                      ↓
+
                           [Response + Source shown]
 
 
