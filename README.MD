@@ -83,7 +83,7 @@ Documents are:
 -Retrieved using LangChain retriever with role-based filtering
 
 
-
+--------------------------------------------------------------------------------------------------
 🛠️ Setup Instructions:
 
 recommended python version:
@@ -139,7 +139,7 @@ recommended python version:
 --- Visit: http://localhost:8501
 
 
-
+---------------------------------------------------------------------------------------------
 
 💬 Usage Example
 
