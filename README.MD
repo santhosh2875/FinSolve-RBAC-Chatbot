@@ -75,32 +75,39 @@ Documents are:
 
 
 🛠️ Setup Instructions:
+
 recommended python version:
+
 ----Python 3.11.0----------
 
 🐍 1. Create  Virtual Environment
  
 📦 Step 1: Open a terminal inside your project directory and run:
-    python -m venv venv
+    
+     python -m venv venv
 
 ⚙️ Step 2: Activate the Virtual Environment
-    .\venv\Scripts\Activate.ps1
+   
+     .\venv\Scripts\Activate.ps1
 
 
 🧪 2. Install Dependencies
 
-  pip install -r requirements.txt
+     pip install -r requirements.txt
 
 
 🔐 3. Configure .env
----.env file in the root directory of the project:
+
+---rename the .env.example  file to .env in the root directory of the project:
+
 ---Paste your OpenRouter API key into it like this:
 
-OPENROUTER_API_KEY=paste your your_openrouter_key
+    OPENROUTER_API_KEY=paste your your_openrouter_key
 
 
   
 📂 4. Ingest Documents into Chroma
+
  # ✅ This will generate the chroma_db folder from your markdown and CSV files
 
    python -m backend.ingest
@@ -126,6 +133,7 @@ OPENROUTER_API_KEY=paste your your_openrouter_key
 
 
 Username: alice||bob||john||eve||dan||-- (any one!!)
+
 password: password123
 
 ------------------
