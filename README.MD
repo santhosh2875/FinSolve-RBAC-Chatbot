@@ -79,12 +79,13 @@ Documents are:
 recommended python version:
 
 ----Python 3.11.0----------
+-----visual studio code----(recommended)
 
 🐍 1. Create  Virtual Environment
  
 📦 Step 1: Open a terminal inside your project directory and run:
-    
-     python -m venv venv
+
+    python -m venv venv
 
 ⚙️ Step 2: Activate the Virtual Environment
    
