@@ -79,6 +79,7 @@ Documents are:
 recommended python version:
 
 ----Python 3.11.0----------
+
 -----visual studio code----(recommended)
 
 🐍 1. Create  Virtual Environment
@@ -111,7 +112,7 @@ recommended python version:
 
  # ✅ This will generate the chroma_db folder from your markdown and CSV files
 
-   python -m backend.ingest
+     python -m backend.ingest
 
 
 ▶️ How to Run the Project
